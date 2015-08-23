@@ -13,17 +13,17 @@ Means of frequency domains calculations are also included in the data set.  Thes
 |: **Field Name** :|: **Data Attributes** :|: **Description** :|
 |------------|-----------------|-------------|
 |activity | character (factor) | The activity the subject was completing during the measurement.  Possible values can be *LAYING*, *SITTING*, *STANDING*, *WALKING*, *WALKING_DOWNSTAIRS* or *WALKING_UPSTAIRS*.|
-subject | integer | represents unique ID of test subject completing the activity range [1,30] |
-|TimeDomain-BodyAcceleration-Mean| Numeric, normalized [-1,1],3-axial  | the mean of linear body acceleration measured over time |
-|TimeDomain-BodyAcceleration-StandardDev| Numeric, normalized [-1,1],3-axial | the mean of the standard deviations of linear body acceleration measured over time |
-|TimeDomain-GravityAcceleration-Mean| Numeric, normalized [-1,1],3-axial | the mean of linear acceleration due to gravity measured over time |
-|TimeDomain-GravityAcceleration-StandardDev| Numeric, normalized [-1,1],3-axial | the mean of the standard deviations of linear acceleration due to gravity measured over time |
-|TimeDomain-BodyAccelerationJerk-Mean| Numeric, normalized [-1,1],3-axial | the mean of body acceleration measurements derived with respect to time |
-|TimeDomain-BodyAccelerationJerk-StandardDev| Numeric, normalized [-1,1],3-axial |  the mean of standard deviations of body acceleration measurements derived with respect to time |
-|TimeDomain-BodyAngularVelocity-Mean| Numeric, normalized [-1,1],3-axial | the mean of body angular velocity measurements taken from gyroscope measured over time |
-|TimeDomain-BodyAngularVelocity-StandardDev| Numeric, normalized [-1,1],3-axial | the mean of the standard deviations of body angular velocity measurements measured over time |
-|TimeDomain-BodyAngularVelocityJerk-Mean| Numeric, normalized [-1,1],3-axial | the mean of body angular velocity measurements derived with respect to time |
-|TimeDomain-BodyAngularVelocityJerk-StandardDev| Numeric, normalized [-1,1],3-axial | the mean of standard deviations of body angular velocity measurements derived with respect to time |
+subject | integer | represents unique ID of test subject completing the activity. Values range [1,30] |
+|TimeDomain-BodyAcceleration-Mean| Numeric, normalized [-1,1], 3-axial  | the mean of linear body acceleration measured over time |
+|TimeDomain-BodyAcceleration-StandardDev| Numeric, normalized [-1,1], 3-axial | the mean of the standard deviations of linear body acceleration measured over time |
+|TimeDomain-GravityAcceleration-Mean| Numeric, normalized [-1,1], 3-axial | the mean of linear acceleration due to gravity measured over time |
+|TimeDomain-GravityAcceleration-StandardDev| Numeric, normalized [-1,1], 3-axial | the mean of the standard deviations of linear acceleration due to gravity measured over time |
+|TimeDomain-BodyAccelerationJerk-Mean| Numeric, normalized [-1,1], 3-axial | the mean of body acceleration measurements derived with respect to time |
+|TimeDomain-BodyAccelerationJerk-StandardDev| Numeric, normalized [-1,1], 3-axial |  the mean of standard deviations of body acceleration measurements derived with respect to time |
+|TimeDomain-BodyAngularVelocity-Mean| Numeric, normalized [-1,1], 3-axial | the mean of body angular velocity measurements taken from gyroscope measured over time |
+|TimeDomain-BodyAngularVelocity-StandardDev| Numeric, normalized [-1,1], 3-axial | the mean of the standard deviations of body angular velocity measurements measured over time |
+|TimeDomain-BodyAngularVelocityJerk-Mean| Numeric, normalized [-1,1], 3-axial | the mean of body angular velocity measurements derived with respect to time |
+|TimeDomain-BodyAngularVelocityJerk-StandardDev| Numeric, normalized [-1,1], 3-axial | the mean of standard deviations of body angular velocity measurements derived with respect to time |
 |TimeDomain-BodyAccelerationDMagnitude-Mean| Numeric, normalized [-1,1] | the mean of calculated magnitudes from 3-axial linear body acceleration measured over time |
 |TimeDomain-BodyAccelerationDMagnitude-StandardDev| Numeric, normalized [-1,1] | the mean of standard deviations of calculated magnitudes from 3-axial linear body acceleration measured over time |
 |TimeDomain-GravityAccelerationDMagnitude-Mean| Numeric, normalized [-1,1] | the mean of calculated magnitudes from 3-axial linear acceleration from gravity measured over time |
@@ -34,12 +34,12 @@ subject | integer | represents unique ID of test subject completing the activity
 |TimeDomain-BodyAngularVelocityDMagnitude-StandardDev| Numeric, normalized [-1,1] | the mean of standard deviations from calculated magnitudes of 3-axial angular velocity measured over time |
 |TimeDomain-BodyAngularVelocityJerkDMagnitude-Mean| Numeric, normalized [-1,1] | the mean of magnitudes derived over time from the 3-axial angular velocity measurements |
 |TimeDomain-BodyAngularVelocityJerkDMagnitude-StandardDev| Numeric, normalized [-1,1] | the mean of standard deviations of magnitudes derived over time from the 3-axial angular velocity measurements |
-|FrequencyDomainBodyAcceleration-Mean| Numeric, normalized [-1,1],3-axial | the mean of FFT calculations on linear body acceleration measurements |
-|FrequencyDomainBodyAcceleration-StandardDev| Numeric, normalized [-1,1],3-axial | the mean of standard deviations on FFT calculations of linear body acceleration measurements |
-|FrequencyDomainBodyAccelerationJerk-Mean| Numeric, normalized [-1,1],3-axial | the mean of FFT calculations on linear body acceleration measurements derived over time |
-|FrequencyDomainBodyAccelerationJerk-StandardDev| Numeric, normalized [-1,1],3-axial | the mean of standard deviations from FFT calculations on linear body acceleration measurements derived over time |
-|FrequencyDomainBodyAngularVelocity-Mean| Numeric, normalized [-1,1],3-axial | the mean of FFT calculations on angular velocity measurements |
-|FrequencyDomainBodyAngularVelocity-StandardDev| Numeric, normalized [-1,1],3-axial | the mean of standard deviations for FFT calculations on angular velocity measurements |
+|FrequencyDomainBodyAcceleration-Mean| Numeric, normalized [-1,1], 3-axial | the mean of FFT calculations on linear body acceleration measurements |
+|FrequencyDomainBodyAcceleration-StandardDev| Numeric, normalized [-1,1], 3-axial | the mean of standard deviations on FFT calculations of linear body acceleration measurements |
+|FrequencyDomainBodyAccelerationJerk-Mean| Numeric, normalized [-1,1], 3-axial | the mean of FFT calculations on linear body acceleration measurements derived over time |
+|FrequencyDomainBodyAccelerationJerk-StandardDev| Numeric, normalized [-1,1], 3-axial | the mean of standard deviations from FFT calculations on linear body acceleration measurements derived over time |
+|FrequencyDomainBodyAngularVelocity-Mean| Numeric, normalized [-1,1], 3-axial | the mean of FFT calculations on angular velocity measurements |
+|FrequencyDomainBodyAngularVelocity-StandardDev| Numeric, normalized [-1,1], 3-axial | the mean of standard deviations for FFT calculations on angular velocity measurements |
 |FrequencyDomainBodyAccelerationDMagnitude-Mean| Numeric, normalized [-1,1] | the mean of calculated magnitudes from FFT of 3-axial linear body acceleration measurements |
 |FrequencyDomainBodyAccelerationDMagnitude-StandardDev| Numeric, normalized [-1,1] | the mean of standard deviations of calculated magnitudes from FFT of 3-axial linear body acceleration measurements |
 |FrequencyDomainBodyBodyAccelerationJerkDMagnitude-Mean| Numeric, normalized [-1,1] | the mean of calculated magnitudes from FFT of 3-axial linear body acceleration measurements derived over time |
