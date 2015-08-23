@@ -68,4 +68,4 @@ activitydata <- arrange(activitydata, subject, activity)
 tidydata <- group_by(activitydata, activity, subject)
 tidydataResult <- summarise_each(tidydata,funs(mean))
 
-write.table(tidydataResult, file = "ActivityData_Cleaned.txt")
+write.table(tidydataResult, file = "ActivityData.txt")
