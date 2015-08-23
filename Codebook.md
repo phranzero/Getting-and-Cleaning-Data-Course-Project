@@ -1,4 +1,4 @@
--> ###Data Dictionary for ActivityData.txt <-
+###Data Dictionary for ActivityData.txt
 
 Original data set codebook is located here for information about data collection decisions, study design and original variables.
 https://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.names
