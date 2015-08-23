@@ -43,7 +43,7 @@ activitydata <- activitydata[,c(1,2,featurestokeep[[1]])]
 activitylabels <- read.table("UCI HAR Dataset/activity_labels.txt", col.names = c("activityID", "activity"),
                              colClasses = c("integer","factor"))
 activitydata <- merge(activitylabels,activitydata)
-activitydata$activityID <- NULL
+activitydata$activityID <- NULL  #Remove activity ID column as we now have descriptive activity names
 
 ## Step 4 - Appropriately label the data set with descriptive variable names.
 featurestokeep$V2 <- gsub("mean\\(\\)", "Mean", featurestokeep$V2)
