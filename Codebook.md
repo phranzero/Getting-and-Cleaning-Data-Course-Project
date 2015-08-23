@@ -10,8 +10,8 @@ Each of these axial measurements will include "-onXAxis", "-onYAxis" or "-onZAxi
 
 Means of frequency domains calculations are also included in the data set.  These data were obtained by taking Fast Fourier Transforms of the time domain based measurements.
 
-|: **Field Name** :|: **Data Attributes** :|: **Description** :|
-|------------|-----------------|-------------|
+| **Field Name** | **Data Attributes** | **Description** |
+|:------------:|:-----------------:|:-------------:|
 |activity | character (factor) | The activity the subject was completing during the measurement.  Possible values can be *LAYING*, *SITTING*, *STANDING*, *WALKING*, *WALKING_DOWNSTAIRS* or *WALKING_UPSTAIRS*.|
 subject | integer | represents unique ID of test subject completing the activity. Values range [1,30] |
 |TimeDomain-BodyAcceleration-Mean| Numeric, normalized [-1,1], 3-axial  | the mean of linear body acceleration measured over time |
